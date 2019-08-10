@@ -3,12 +3,15 @@ class Stack():
         self.items = []
 
     def is_Empty(self):
+		'''判空'''
         return self.items == []
 
     def push(self,item):
+		'''入栈'''
         self.items.append(item)
 
     def pop(self):
+		'''出栈'''
         return self.items.pop()
 
     def peek(self):
@@ -16,6 +19,7 @@ class Stack():
         return self.items[len(self.items)-1]
 
     def size(self):
+		'''返回大小'''
         return len(self.items)
 
 

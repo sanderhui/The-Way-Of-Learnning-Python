@@ -1,9 +1,10 @@
 class Queue(object):
-    """队列"""
+    	"""队列"""
     def __init__(self):
         self.items = []
 
     def is_empty(self):
+		"""判空"""
         return self.items == []
 
     def enqueue(self, item):
